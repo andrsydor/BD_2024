@@ -1,0 +1,2 @@
+
+PARTITION_DATE_FORMAT = "dd_MM_yyyy"

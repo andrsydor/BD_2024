@@ -44,3 +44,14 @@ class StackExchangeColumns:
     tag = "Tag"
     date = "Date"
     tag_id = "TagId"
+    sentiment = "Sentiment"
+    wordsCount = "WordsCount"
+
+    answer_id = "AnswerId"
+    answer_owner_user_id = "AnswerOwnerUserId"
+    answer_score = "AnswerScore"
+    answer_words_count = "AnswerWordsCount"
+    answer_creation_date = "AnswerCreationDate"
+    self_answered = "SelfAnswered"
+
+    partition_date = "PartitionDate"

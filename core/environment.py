@@ -3,7 +3,8 @@ class Environment:
     # TODO: use environmental variables for this
 
     def __init__(self):
-        self.__data_directory_path = "D:/PyCharmStorage/BD_2024/data"
+        self.__data_directory_path = "D:\\pp_git\\BD_2024\\data"
+        # self.__data_directory_path = "/content/drive/MyDrive/big_data/data"
         self.__app_name = "BD_2024"
         self.__spark_master = "local"
 
