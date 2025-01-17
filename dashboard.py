@@ -231,7 +231,7 @@ def interactive_section():
         dcc.Dropdown(
             id='dropdown-1',
             options=[
-                {'label': tag, 'value': tag} for tag in df.head(50)['Tag'].unique()
+                {'label': tag, 'value': tag} for tag in df.head(100)['Tag'].unique()
             ],
             placeholder="Choose an option",
             multi=False,
@@ -350,9 +350,9 @@ def main():
         ),
 
         leaderboard(
-            "Leaderboards by number of accepted answers",
-            "AcceptedAnswersPerQuestions",
-            'Average number of accepted answers per question',
+            "Leaderboards by number of answered questions",
+            "PortionsOfAnswered",
+            'Portion of answered questions',
             environment
         ),
 
@@ -399,9 +399,9 @@ def main():
         ),
 
         leaderboard(
-            "Leaderboards by positive comments per question",
-            "PositiveCommentsPerQuestion",
-            'Average number of positive comments per question',
+            "Leaderboards by positive comments",
+            "PortionsOfPositiveComments",
+            'Portion of positive comments',
             environment
         ),
 
